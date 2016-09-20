@@ -9,7 +9,6 @@ body {
 }
 
 /*Start Header*/
-
 header, .box-1, .box-2, footer {
   width: 1000px;
   margin: auto;
@@ -117,7 +116,12 @@ body#contrastePreto,
 #contrastePreto a,
 #contrastePreto h1,
 #contrastePreto h2,
-#contrastePreto footer {
+#contrastePreto footer,
+#contrasteAzul .box-1 p,
+#contrasteAzul a,
+#contrasteAzul h1,
+#contrasteAzul h2,
+#contrasteAzul footer {
   color: #FFFFFF;
 }
 /*End Contraste Preto*/
@@ -128,13 +132,5 @@ body#contrasteAzul,
 #contrasteAzul .box-2,
 .azul{
   background: #3590c7;
-}
-
-#contrasteAzul .box-1 p,
-#contrasteAzul a,
-#contrasteAzul h1,
-#contrasteAzul h2,
-#contrasteAzul footer {
-  color: #FFFFFF;
 }
 /*End Contraste Azul*/
