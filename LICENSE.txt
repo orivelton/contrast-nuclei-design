@@ -1,0 +1,21 @@
+MIT License
+
+Copyright (c) [ano] [nome completo]
+
+A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia
+deste software e arquivos de documentação associados (o "Software"), para lidar
+o Software sem restrições, incluindo, sem limitação, os direitos
+para usar, copiar, modificar, mesclar, publicar, distribuir, sub-licenciar e / ou vender
+cópias do Software, e permitir que as pessoas a quem o Software é
+fornecido façam isso, sujeitas às seguintes condições:
+
+O aviso de copyright acima e este aviso de permissão devem ser incluídos em todos
+cópias ou partes substanciais do Software.
+
+O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM QUALQUER TIPO DE GARANTIA, EXPRESSA OU
+IMPLÍCITA, INCLUINDO, SEM LIMITAÇÃO, AS GARANTIAS DE COMERCIALIZAÇÃO,
+ADEQUAÇÃO A UM DETERMINADO FIM E NÃO VIOLAÇÃO. EM NENHUM CASO A
+AUTORES OU DETENTORES DE DIREITOS AUTORAIS SERÁ RESPONSÁVEL POR QUALQUER RECLAMAÇÃO, DANOS OU OUTRAS
+RESPONSABILIDADE, SEJA EM UMA AÇÃO DE CONTRATO, DELITO OU DE OUTRA FORMA, DECORRENTES,
+DE OU EM CONEXÃO COM O SOFTWARE OU O USO OU OUTRA APLICAÇÃO DO
+PROGRAMAS.
