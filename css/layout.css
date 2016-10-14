@@ -1,0 +1,113 @@
+/*
+Artigo : Contrste de cores
+Autor : Orivelton Cesar - www.orivelton.com.br
+Copyright (c) 2016 Copyright Holder All Rights Reserved.
+*/
+
+
+* {margin: 0; padding: 0} img {border : 0}
+body {
+   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+.container-row {
+  width: 100%;
+  max-width: 1000px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.container-header {
+  width: 100%;
+  overflow: hidden;
+  background: #FFFFFF;
+}
+  .container-header h1 {
+    width: 100%;
+  }
+  .container-header h2 {
+    width: 40%;
+    font-size: 0.5em;
+  }
+
+/*START - Container Center*/
+
+.container-center {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: inline-block;
+  box-shadow: inset 0 10px 18px rgba(0, 0, 0, 0.16);
+  min-height: 45em;
+}
+
+.container-center:before {
+  content: "";
+  display: inline-block;
+  border-left: 390px solid transparent;
+  border-right: 390px solid transparent;
+  border-top: solid 390px #8cc63e;
+  position: absolute;
+  left: -8.8em;
+  z-index: 3;
+}
+
+.container-center h3 {
+  float: right;
+}
+
+
+
+.container-center:after {
+  content: "";
+  display: inline-block;
+  border-right: 580px solid rgba(0, 0, 0, 0);
+  border-bottom: solid 580px #333333;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.element-rotate {
+  content: "";
+  display: inline-block;
+  border-right: 670px solid rgba(0, 0, 0, 0);
+  border-bottom: solid 670px #01a89e;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+footer {
+  width: 100%;
+  max-width: 1000px;
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+  min-height: 245px;
+  margin-top: -4px;
+}
+
+footer::before {
+  content: "";
+  display: inline-block;
+  border-left: 420px solid rgba(0, 0, 0, 0);
+  border-top: solid 420px #01a89e;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+/*END - Container Center*/
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
