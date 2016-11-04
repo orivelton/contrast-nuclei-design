@@ -1,0 +1,56 @@
+/*
+Artigo : Contrste de cores
+Autor : Orivelton Cesar - www.orivelton.com.br
+*/
+
+* {margin: 0; padding: 0} img {border : 0}
+body {
+   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.row {
+  width: 100%;
+  overflow: hidden;
+}
+.container {
+  width: 1024px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.container.header {
+
+}
+
+.color-green {
+  background: #1ac2b3;
+}
+
+.nav-top {
+  background: #353535;
+  width: 20.703125%;
+  max-width: 212px;
+  text-align:  center;
+}
+
+.nav-top ul {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.nav-top ul li a {
+  color: #FFFFFF;
+  padding: 4.71698113% 0;
+  display: inline-block;
+}
+
+.nav-top ul::after {
+    content: '';
+    display: inline-block;
+    border-left: 106px solid #353535;
+    border-bottom: 35px solid #1ac2b3;
+    border-right: 106px solid #353535;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
