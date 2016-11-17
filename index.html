@@ -1,46 +1,49 @@
+<!--
+Artigo : Contrste de cores
+Autor : Orivelton Cesar - www.orivelton.com.br
+-->
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8">
     <title>Contraste de cores</title>
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/contraste.js"></script>
   </head>
   <body>
-    <header>
-      <div class="container-left">
-        <a href="#content" class="go-content">Conteúdo principal</a>
-        <h1>Artigo - Contraste de cores.</h1>
-      </div>
-      <div class="container-right">
-        <h2>Barra de acessibilidade - Contraste de cores </h2>
+    <div class="row bck-green acessibilidade bottom-border">
+      <div class="container">
         <nav>
           <ul>
-            <li class="bd-right"><a href="#" onclick="semContraste()">Sem contraste</a></li>
-            <li class="bd-right"><a href="#" onclick="contrastePreto()">Contraste Preto <i class="preto"></i></a></li>
-            <li class="bd-right"><a href="#" onclick="contrasteBranco()">Contraste Branco <i class="branco"></i></a></li>
-            <li><a href="#" onclick="contrasteAzul()">Contraste Azul <i class="azul"></i></a></li>
+            <li><a href="#" title="Ir para o Conteúdo">Ir para o Conteúdo</a></li>
+            <li><a href="#" title="Ir para o Menu">Ir para o Menu</a></li>
+            <li><a href="#" title="Ir para o Rodapé">Ir para o Rodapé</a></li>
+
+            <li><a href="#" onclick="contraste(this.id)" id="semContraste" title="Sem Contraste">Sem Contraste</a></li>
+            <li><a href="#" onclick="contraste(this.id)" id="contrasteBranco" title="Contraste Branco">Contraste Branco</a></li>
+            <li><a href="#" onclick="contraste(this.id)" id="contrastePreto" title="Contraste Preto">Contraste Preto</a></li>
+            <li><a href="#" onclick="contraste(this.id)" id="contrasteAzul" title="Contraste Azul">Contraste Azul</a></li>
           </ul>
         </nav>
       </div>
-    </header>
-    <div id="content" class="container">
-      <div class="box-1">
-        <article class="">
-          <p> Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou Euzis! Atirei o pau no gatis, per gatis num morreus. Pra lá , depois divoltis porris, paradis. Viva Forevis aptent taciti sociosqu ad litora torquent</p>
-
-          <p> Copo furadis é disculpa de bebadis, arcu quam euismod magna. Ta deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.” Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Quem num gosta di mé, boa gente num é.</p>
-        </article>
-      </div>
-      <div class="box-2">
-        <p> Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou Euzis! Atirei o pau no gatis, per gatis num morreus. Pra lá , depois divoltis porris, paradis. Viva Forevis aptent taciti sociosqu ad litora torquent</p>
-
-        <p> Copo furadis é disculpa de bebadis, arcu quam euismod magna. Ta deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.” Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Quem num gosta di mé, boa gente num é.</p>
-      </div>
-
+      <!--  End - .container-->
     </div>
-    <footer>
-      <em>Contrate de cores - 2016</em>
-    </footer>
+    <!--  End - .row .bck-green-->
+    <div class="row bck-green">
+      <header class="container header">
+        <h1 class="fl">Um Logo</h1>
+        <nav class="fl">
+          <ul class="fr">
+            <li><a href="#" title="Página Home">Home</a></li>
+            <li><a href="#" title="Página Serviços">Serviços</a></li>
+            <li><a href="#" title="Página Sobre">Sobre</a></li>
+            <li><a href="#" title="Página Novidades">Novidades</a></li>
+            <li><a href="#" title="Página Contato">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!--  End - .container-->
+    </div>
+    <!--  End - .row-->
+    <script type="text/javascript" src="js/contraste.js"></script>
   </body>
 </html>
