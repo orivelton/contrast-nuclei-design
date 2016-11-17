@@ -8,9 +8,42 @@ Autor : Orivelton Cesar - www.orivelton.com.br
     <meta charset="utf-8">
     <title>Contraste de cores</title>
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/contraste.js"></script>
   </head>
   <body>
+    <div class="row bck-green acessibilidade bottom-border">
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="#" title="Ir para o Conteúdo">Ir para o Conteúdo</a></li>
+            <li><a href="#" title="Ir para o Menu">Ir para o Menu</a></li>
+            <li><a href="#" title="Ir para o Rodapé">Ir para o Rodapé</a></li>
 
+            <li><a href="#" onclick="contraste(this.id)" id="semContraste" title="Sem Contraste">Sem Contraste</a></li>
+            <li><a href="#" onclick="contraste(this.id)" id="contrasteBranco" title="Contraste Branco">Contraste Branco</a></li>
+            <li><a href="#" onclick="contraste(this.id)" id="contrastePreto" title="Contraste Preto">Contraste Preto</a></li>
+            <li><a href="#" onclick="contraste(this.id)" id="contrasteAzul" title="Contraste Azul">Contraste Azul</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!--  End - .container-->
+    </div>
+    <!--  End - .row .bck-green-->
+    <div class="row bck-green">
+      <header class="container header">
+        <h1 class="fl">Um Logo</h1>
+        <nav class="fl">
+          <ul class="fr">
+            <li><a href="#" title="Página Home">Home</a></li>
+            <li><a href="#" title="Página Serviços">Serviços</a></li>
+            <li><a href="#" title="Página Sobre">Sobre</a></li>
+            <li><a href="#" title="Página Novidades">Novidades</a></li>
+            <li><a href="#" title="Página Contato">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!--  End - .container-->
+    </div>
+    <!--  End - .row-->
+    <script type="text/javascript" src="js/contraste.js"></script>
   </body>
 </html>
