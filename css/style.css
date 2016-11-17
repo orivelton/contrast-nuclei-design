@@ -1,5 +1,5 @@
 /*
-Artigo : Contrste de cores
+Artigo : Contraste de cores
 Autor : Orivelton Cesar - www.orivelton.com.br
 */
 
@@ -44,7 +44,7 @@ nav ul li a:hover {
 
 .acessibilidade nav ul li a:after {
   display: inline-block;
-  content: "  ⬤";
+  content: "⬤";
   font-size: 1em;
   margin-left: 0.6em;
 }
@@ -55,15 +55,16 @@ nav ul li a:hover {
   content: "▼";
 }
 
-.acessibilidade nav ul li:nth-child(3) a:after {
-  color: #FFFFFF;
-}
-
 .acessibilidade nav ul li:nth-child(4) a:after {
   display: none;
 }
 
 .acessibilidade nav ul li:nth-child(5) a:after {
+  color: #FFFFFF;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+.acessibilidade nav ul li:nth-child(6) a:after {
   color: #092747;
 }
 
@@ -91,11 +92,6 @@ header nav ul li{
   border-right: 0;
 }
 /*END - Menu*/
-
-
-
-
-
 /*START - background CORES (Defalt)*/
 .bck-green {
   background: #6c9283;
@@ -121,10 +117,17 @@ header nav ul li{
 #contrasteBranco  nav ul li {
   border-color: #000000;
 }
-
 /*END - Contraste Branco*/
-
-
+/*START - Contraste Preto*/
+#contrastePreto .bck-green {
+  background: #000000;
+}
+/*END - Contraste Preto*/
+/*START - Contraste Azul*/
+#contrasteAzul .bck-green {
+  background: #092747;
+}
+/*END - Contraste Azul*/
 
 
 
