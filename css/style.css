@@ -61,8 +61,6 @@ nav ul li a:hover {
 
 .acessibilidade nav ul li:nth-child(5) a:after {
   color: #FFFFFF;
-  border: 1px solid #000;
-  border-radius: 50%;
 }
 .acessibilidade nav ul li:nth-child(6) a:after {
   color: #092747;
