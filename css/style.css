@@ -2,7 +2,6 @@
 Artigo : Contraste de cores
 Autor : Orivelton Cesar - www.orivelton.com.br
 */
-
 * {margin: 0; padding: 0} img {border : 0}
 body {
    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -20,124 +19,195 @@ body {
   display: block;
 }
 
+.row-header {
+  background: #282e3a;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
 nav ul li {
   float: left;
   list-style: none;
-  padding: 0.5% 1%;
-  border-right: 1px solid #FFFFFF;
 }
-
-.acessibilidade nav ul li:last-child {
-  border-right: none;
-}
-
 
 nav ul li a {
   color: #FFFFFF;
-  text-decoration: none;
-  font-size: 0.8em;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;;
-}
-
-.acessibilidade nav ul li a:after {
   display: inline-block;
-  content: "⬤";
-  font-size: 1em;
-  margin-left: 0.6em;
+  padding: 17px;
+  font-size: 11px;
+  text-transform: uppercase;
 }
 
-.acessibilidade nav ul li:nth-child(1) a:after,
-.acessibilidade nav ul li:nth-child(2) a:after,
-.acessibilidade nav ul li:nth-child(3) a:after {
-  content: "▼";
+nav ul li a.contraste-active {
+  background: #FFFFFF;
+  color: #000000;
 }
 
-.acessibilidade nav ul li:nth-child(4) a:after {
-  display: none;
-}
-
-.acessibilidade nav ul li:nth-child(5) a:after {
+.row-top {
+  background: #64c4e8;
   color: #FFFFFF;
-}
-.acessibilidade nav ul li:nth-child(6) a:after {
-  color: #092747;
+  margin-top: 3.9%;
 }
 
-.bottom-border {
-  border-bottom: 1px solid #FFFFFF;
+.row-top .container {
+  padding: 1.5% 0;
+  text-align: center;
+  font-size: 1.5em;
 }
-/*END - Barra de Acessibilidade*/
-/*START - Menu*/
-header h1 {
-  width: 25%;
+
+.row-banner, footer {
+  background: #56c0e6;
   color: #FFFFFF;
-  padding: 0.2em 0;
+  text-align: center;
 }
 
-header nav {
-  width: 75%;
+.row-banner .container {
+  padding: 8% 0;
+  position: relative;
+  text-align: center;
 }
 
-header nav ul {
-  display: flex;
+.row-banner img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  padding: 0.5%;
+  margin-top: 2%;
 }
 
-header nav ul li{
-  padding: 1em;
-  border-right: 0;
-}
-/*END - Menu*/
-/*START - background CORES (Defalt)*/
-.bck-green {
-  background: #6c9283;
+.row-banner h1 {
+  text-transform: uppercase;
 }
 
-.bck-black {
-  background: #444643;
+.row-banner h1 span {
+  color: #fdf210;
 }
-/*END - background CORES (Defalt)*/
 
+.row-content {
+  background: #282e3a;
+  color: #fdf210;
+}
+
+.row-content .container {
+  padding: 8% 0;
+}
+
+.row-content .box {
+  width: 46%;
+  margin: 4% 0;
+  float: left;
+  text-align: center;
+}
+
+.row-content .box h2 {
+  padding-bottom: 2%;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.row-content .box i {
+  font-style: normal;
+  color: #fdf210;
+  font: 1em;
+}
+
+.row-content .box p {
+  color: #FFFFFF;
+  padding: 2%;
+}
+
+footer {
+  padding: 3% 0;
+}
 
 /*START - Contraste Branco*/
-#contrasteBranco .bck-green {
+
+#contrasteBranco .row-header,
+#contrasteBranco .row-top,
+#contrasteBranco .row-banner,
+#contrasteBranco .row-content,
+#contrasteBranco footer{
+  border-top: 1px solid #0a0a0a;
   background: #FFFFFF;
 }
 
 #contrasteBranco nav ul li a,
-#contrasteBranco h1 {
+#contrasteBranco .row-top,
+#contrasteBranco .row-banner,
+#contrasteBranco .row-content,
+#contrasteBranco .row-content .box p,
+#contrasteBranco .row-content .box i,
+#contrasteBranco .row-banner h1 span,
+#contrasteBranco footer {
   color: #000000;
 }
 
-#contrasteBranco .bottom-border,
-#contrasteBranco  nav ul li {
-  border-color: #000000;
+#contrasteBranco nav ul li a.contraste-active {
+  color: #FFFFFF;
+  background: #000000;
+}
+
+#contrasteBranco .row-banner img {
+  border: 5px solid #000;
 }
 /*END - Contraste Branco*/
 /*START - Contraste Preto*/
-#contrastePreto .bck-green {
+#contrastePreto .row-header,
+#contrastePreto .row-top,
+#contrastePreto .row-banner,
+#contrastePreto .row-content,
+#contrastePreto footer{
+  border-top: 1px solid #FFFFFF;
   background: #000000;
 }
+
+#contrastePreto nav ul li a,
+#contrastePreto .row-top,
+#contrastePreto .row-banner,
+#contrastePreto .row-content,
+#contrastePreto .row-content .box p,
+#contrastePreto .row-content .box i,
+#contrastePreto .row-banner h1 span,
+#contrastePreto footer {
+  color: #FFFFFF;
+}
+
+#contrastePreto nav ul li a.contraste-active {
+  color: #000000;
+  background: #FFFFFF;
+}
+
+#contrastePreto .row-banner img {
+  border: 5px solid #FFFFFF;
+}
 /*END - Contraste Preto*/
-/*START - Contraste Azul*/
-#contrasteAzul .bck-green {
-  background: #092747;
-}
-/*END - Contraste Azul*/
-
-
-
-/*START - Utilidades Globais*/
-.fr {
-  float: right;
+/*START - Contraste azul*/
+#contrasteAzul .row-header,
+#contrasteAzul .row-top,
+#contrasteAzul .row-banner,
+#contrasteAzul .row-content,
+#contrasteAzul footer{
+  border-top: 1px solid #FFFFFF;
+  background: #0b325c;
 }
 
-.fl {
-  float: left;
+#contrasteAzul nav ul li a,
+#contrasteAzul .row-top,
+#contrasteAzul .row-banner,
+#contrasteAzul .row-content,
+#contrasteAzul .row-content .box p,
+#contrasteAzul .row-content .box i,
+#contrasteAzul .row-banner h1 span,
+#contrasteAzul footer {
+  color: #FFFFFF;
 }
-/*END - Utilidades Globais*/
 
-/*START - */
-/*END - */
+#contrasteAzul nav ul li a.contraste-active {
+  color: #0b325c;
+  background: #FFFFFF;
+}
+
+#contrasteAzul .row-banner img {
+  border: 5px solid #FFFFFF;
+}
+/*END - Contraste azul*/
