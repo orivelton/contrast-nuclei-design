@@ -10,40 +10,76 @@ Autor : Orivelton Cesar - www.orivelton.com.br
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="row bck-green acessibilidade bottom-border">
+    <div class="row row-header">
       <div class="container">
         <nav>
           <ul>
-            <li><a href="#" title="Ir para o Conteúdo">Ir para o Conteúdo</a></li>
-            <li><a href="#" title="Ir para o Menu">Ir para o Menu</a></li>
-            <li><a href="#" title="Ir para o Rodapé">Ir para o Rodapé</a></li>
-
-            <li><a href="#" onclick="contraste(0)" title="Sem Contraste">Sem Contraste</a></li>
-            <li><a href="#" onclick="contraste(1)" title="Contraste Branco">Contraste Branco</a></li>
-            <li><a href="#" onclick="contraste(2)" title="Contraste Preto">Contraste Preto</a></li>
-            <li><a href="#" onclick="contraste(3)" title="Contraste Azul">Contraste Azul</a></li>
+            <li>
+              <a href="#content" title="Ir para o Conteúdo">Ir para o Conteúdo</a>
+            </li>
+            <li>
+              <a href="#" title="Ir para o Menu">Ir para o Menu</a>
+            </li>
+            <li>
+              <a href="#" title="Ir para o Rodapé">Ir para o Rodapé</a>
+            </li>
+            <li>
+              <a href="#" data-contraste="0" title="Sem Contraste" class="contraste-active">Sem Contraste</a>
+            </li>
+            <li>
+              <a href="#" data-contraste="1" title="Contraste Branco">Contraste Branco</a>
+            </li>
+            <li>
+              <a href="#" data-contraste="2" title="Contraste Preto">Contraste Preto</a>
+            </li>
+            <li>
+              <a href="#" data-contraste="3" title="Contraste Azul">Contraste Azul</a>
+            </li>
           </ul>
         </nav>
       </div>
-      <!--  End - .container-->
-    </div>
-    <!--  End - .row .bck-green-->
-    <div class="row bck-green">
-      <header class="container header">
-        <h1 class="fl">Um Logo</h1>
-        <nav class="fl">
-          <ul class="fr">
-            <li><a href="#" title="Página Home">Home</a></li>
-            <li><a href="#" title="Página Serviços">Serviços</a></li>
-            <li><a href="#" title="Página Sobre">Sobre</a></li>
-            <li><a href="#" title="Página Novidades">Novidades</a></li>
-            <li><a href="#" title="Página Contato">Contato</a></li>
-          </ul>
-        </nav>
-      </header>
-      <!--  End - .container-->
+      <!-- End - .container-->
     </div>
     <!--  End - .row-->
+    <div class="row row-top">
+      <div class="container">
+        <strong>Front End Developer</strong>
+      </div>
+    </div>
+    <div class="row row-banner">
+      <div class="container">
+        <h1>Hi my names is <span>Orivelton</span></h1>
+        <img src="img/avatar.png" alt="Avatar Orivelton">
+      </div>
+    </div>
+    <div class="row row-content">
+      <article class="container" id="content">
+        <div class="box">
+          <h2>Html5</h2>
+          <i>★★★★★</i>
+          <p>Mussum Ipsum, cacilds vidis litro abertis. Manduma pindureta quium dia nois paga. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Si num tem leite então bota uma pinga aí cumpadi! Atirei o pau no gatis, per gatis num morreus.</p>
+        </div>
+        <div class="box">
+          <h2>Css3</h2>
+          <i>★★★★★</i>
+          <p>Mussum Ipsum, cacilds vidis litro abertis. Manduma pindureta quium dia nois paga. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Si num tem leite então bota uma pinga aí cumpadi! Atirei o pau no gatis, per gatis num morreus.</p>
+        </div>
+        <div class="box">
+          <h2>Javascript</h2>
+          <i>★★★★</i>
+          <p>Mussum Ipsum, cacilds vidis litro abertis. Manduma pindureta quium dia nois paga. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Si num tem leite então bota uma pinga aí cumpadi! Atirei o pau no gatis, per gatis num morreus.</p>
+        </div>
+        <div class="box">
+          <h2>Typescript</h2>
+          <i>★★★★</i>
+          <p>Mussum Ipsum, cacilds vidis litro abertis. Manduma pindureta quium dia nois paga. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Si num tem leite então bota uma pinga aí cumpadi! Atirei o pau no gatis, per gatis num morreus.</p>
+        </div>
+      </article>
+    </div>
+    <footer>
+        Copyright (c) 2016 Copyright Holder All Rights Reserved.
+    </footer>
+
     <script type="text/javascript" src="js/contraste.js"></script>
   </body>
 </html>

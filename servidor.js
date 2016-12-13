@@ -1,11 +1,22 @@
-Installing globally:
 
-Installation via npm:
+Passo 1 - :
+npm install http-server -g
 
- npm install http-server -g
-This will install http-server globally so that it may be run from the command line.
+Passo 2 - :
 
-Usage:
+cd project
+http-server
 
- http-server [path] [options]
-[path] defaults to ./public if the folder exists, and ./ otherwise.
+
+
+// Installing globally:
+//
+// Installation via npm:
+//
+//  npm install http-server -g
+// This will install http-server globally so that it may be run from the command line.
+//
+// Usage:
+//
+//  http-server [path] [options]
+// [path] defaults to ./public if the folder exists, and ./ otherwise.
