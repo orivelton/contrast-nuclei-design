@@ -39,7 +39,7 @@ nav ul li a {
   text-transform: uppercase;
 }
 
-nav ul li a.contraste-active {
+nav ul li a[data-contraste="0"] {
   background: #FFFFFF;
   color: #000000;
 }
@@ -153,6 +153,12 @@ footer {
   background: #000000;
 }
 
+#contrasteBranco nav ul li a[data-contraste="1"],
+#contrastePreto nav ul li a[data-contraste="0"] {
+  background: #000000;
+  color: #FFFFFF;
+}
+
 #contrasteBranco .row-banner .avatar {
   border: 5px solid #000;
 }
@@ -178,7 +184,7 @@ footer {
   color: #FFFFFF;
 }
 
-#contrastePreto nav ul li a.contraste-active {
+#contrastePreto nav ul li a[data-contraste="2"] {
   color: #000000;
   background: #FFFFFF;
 }
@@ -195,6 +201,15 @@ footer {
 #contrasteAzul footer{
   border-top: 1px solid #FFFFFF;
   background: #0b325c;
+}
+
+#contrasteAzul nav ul li a[data-contraste="0"] {
+  background: #0b325c;
+}
+
+#contrasteAzul nav ul li a[data-contraste="3"] {
+  background: #FFFFFF;
+  color: #0b325c;
 }
 
 #contrasteAzul nav ul li a,
