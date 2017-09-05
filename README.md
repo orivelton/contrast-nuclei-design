@@ -1,9 +1,9 @@
-# Projeto Contraste de cores
-Demonstração de um contraste de cores em três níveis, Branco, Preto e Azul.
+# Contrast nuclei design
+Demonstration of a color contrast in three levels, White, Black and Blue.
 
-Esse Projeto é validado pelo W3C e nível "AAA" nos teste de acessibilidade da ferramenta de teste de acessibilidade accessmonitor. 
+This Project is validated by the W3C and "AAA" level in the accessibility test of the accessmonitor accessibility test tool.
 
 Demo : https://orivelton10.github.io/contraste-de-cores/
 
 
-Feito para o post no Tableless - https://tableless.com.br/contraste-de-cores-acessibilidade-na-web/
+Made for the post in Tableless - https://tableless.com.br/contraste-de-cores-acessibilidade-na-web/
