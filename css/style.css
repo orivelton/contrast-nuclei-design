@@ -1,12 +1,15 @@
 /*
 Artigo : Contraste de cores
-Autor : Orivelton Cesar - www.orivelton.com.br
+Autor : Orivelton Cesar - https://github.com/orivelton
 */
+
 * {margin: 0; padding: 0} img {border : 0}
 body {
    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
+
 /*START - Barra de Acessibilidade*/
+
 .row {
   width: 100%;
   overflow: hidden;
