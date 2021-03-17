@@ -1,0 +1,20 @@
+{
+  "name": "contrast-nuclei-design",
+  "version": "1.1.0",
+  "description": "Demonstration of a color contrast in three levels, White, Black and Blue.",
+  "main": "servidor.js",
+  "scripts": {
+    "release": "npx release-tag"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orivelton/contrast-nuclei-design.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orivelton/contrast-nuclei-design/issues"
+  },
+  "homepage": "https://github.com/orivelton/contrast-nuclei-design#readme"
+}
